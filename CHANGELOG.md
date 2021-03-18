@@ -144,7 +144,7 @@ Docker networking. Change it to 172.31/16.
 
 ## 1.26.0
 
-This minor release contains bugfixes and other improvements. It also adds better support for the arm architecture to rkt, so that you can now fetch images via autodiscovery and have the correct seccomp whitelist to run them. Also notable is the new possibilty to pass extra kernel parameters to kvm, and last but not least a significant prepare/run speedup in stage0. This also introduces stricter validation on volume names, now rejecting duplicate ones.
+This minor release contains bugfixes and other improvements. It also adds better support for the arm architecture to rkt, so that you can now fetch images via autodiscovery and have the correct seccomp whitelist to run them. Also notable is the new possibility to pass extra kernel parameters to kvm, and last but not least a significant prepare/run speedup in stage0. This also introduces stricter validation on volume names, now rejecting duplicate ones.
 
 ## New Features
 - stage1: improve duplicate mount-volume detection ([#3666](https://github.com/rkt/rkt/pull/3666)). Breaking change: volumes with duplicate names are now rejected.
